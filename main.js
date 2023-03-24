@@ -1,5 +1,6 @@
 //los comentarios son explicaciones y ejemplos 
 
+ // Capitulo 1
 // 1) variables
 
 
@@ -152,17 +153,136 @@
 
 
 
-// Operadores Logicos 
+// Operadores Logicos volver a mirar
 
-let valor = true
-
-let valor2 = true
+//Ejemplo
 
 
-let resultado = valor && valor2;
+//let valor = true
 
-let resultado2 = valor || valor2;
+//let valor2 = true
 
-let resultado3 = valor =! valor2;
 
-document.write(true && false)
+//let resultado = valor && valor2;
+
+//let resultado2 = valor || valor2;
+
+//let resultado3 = valor =! valor2;
+
+//document.write(false && false)
+
+
+//num1 = 12
+//num2 = 24 
+
+//afirmacion1 = num1 > num2
+//afirmacion2 = num1 == num2
+
+//document.write(!true)
+
+//&& si las 2 condiciones se cumplen sera true  si una es falsa debuelve falso 
+
+// || si una de las condiciones es falsa sera falsa y si son las 2 verdaderas sera verdadoro 
+
+// ! debuelve lo contrario si una afirmacion es verdadera si ponemos este signo sera falsa
+
+//9) camel case  la primera palabra va en minuscula y si es una palabra nueva comenzara en mayuscula siempre escribiremos asi 
+
+// Ejemplo variableDiaMes
+
+//10) condicionales minuto 1:37:04
+
+//Ejemplo if
+
+
+//nombre = "cesar"
+//apellido = "garcia"
+
+//if (nombre != "cesar") {
+    //alert("ddd")
+//}
+//else if (apellido != "garcia"){
+    //alert("mi apellido es " + apellido)
+//}
+//else{
+    //alert("me hago la comida")
+//}
+
+// partes del bucle 
+
+// paso 1
+
+// nombre = cesar inicializacion de las variables 
+// apellido garcia  inicializacion de las variables 
+
+//paso2
+
+// comparacion comenzaremos siempre con (if si la condicion se cumple) en nustro caso nombre distinto de cesar  ejecuta alert("ddd") lo que ejecutara en el cuble esta entre llaves {}
+
+// paso 3 
+
+//(else if si no se cumple) entonces ejecutara apellido es igual a garcia? (ordenador si es igual entonces lo mostraremos por pantalla con  alert("mi apellido es " + apellido)) 
+
+
+// si no se cumple ninguna de las condiciones anteriores ejecutara el else la diferencia entre estos 2 es que else if podemos poner los que queramos y else solo uno 
+
+
+
+// practicas del primer capitulo
+
+// Crear soluciones 
+
+
+//dineroSergio = prompt("cuanto dinero tienes Sergio?");
+
+//dineroSergio = parseInt(dineroSergio)
+
+//if (dineroSergio >= 0.6 && dineroSergio <1){
+    //alert("comprate el helado de agua");
+     //alert( "te sobran " + (dineroSergio - 0.6));
+//}
+//else if (dineroSergio >=1 && dineroSergio < 1.6){
+ //alert("comprate el helado crema");
+ //alert( "te sobran " + (dineroSergio - 1));
+//}
+
+//else if (dineroSergio >= 1.6 && dineroSergio < 1.7){
+    //alert("comprate el heledo heladix");
+    //alert( "te sobran " + (dineroSergio - 1.6));
+//}
+
+//else if (dineroSergio >= 1.7 && dineroSergio < 1.8){
+ //alert("comprate el helado heladovich");
+ //alert( "te sobran " + (dineroSergio - 1.7));
+//}
+
+//else if (dineroSergio >= 1.8 && dineroSergio < 2.9){
+    //alert("comprete el helado negro");
+    //alert( "te sobran " + (dineroSergio - 1.8));
+//}
+//else if (dineroSergio >= 2.9){
+//alert("helado frio");
+//alert( "te sobran " + (dineroSergio - 2.9));
+//}
+
+//else{
+    //alert("comsigue mas dinero probe asqueroso");
+//}
+
+// transformado a la vida real si el dinero de sergo es mayor que 0.6 podra comprarse un helado si es mejor que 1 no podra comprarse el siguemte por ultimo (si no tiene dinero else) no se podra comprar nada
+
+
+//Ejemplo 2
+
+
+miEdadBeber = prompt("Intruduce tu edad")
+
+let  falta = (miEdadBeber - 18)
+
+if (miEdadBeber >= 18){
+    //document.write("Puedes beber pero con moderacion")
+}
+
+else if (miEdadBeber < 18){
+    document.write("te falta " + falta + " para poder beber" )
+}
